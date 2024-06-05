@@ -1,0 +1,10 @@
+[book]
+title = "Terminal Jockey Documentation"
+description = "Code Examples, Notes, Etc..."
+authors = ["Ben Falk"]
+src = "."
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "rust"
+git-repository-url = "https://github.com/benfalk/terminal_jockey"

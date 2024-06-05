@@ -1,0 +1,22 @@
+[package]
+name = "args_bar"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "args_bar"
+path = "src/lib/mod.rs"
+
+[dependencies]
+# = Ergonomic Error Trait
+# https://github.com/dtolnay/thiserror
+thiserror = "1.0"
+
+[dev-dependencies]
+# = Testing Factory Macro
+# https://github.com/mjkillough/factori
+factori = "1.1"
+
+# = Ergonomic Fixture Test Macros
+# https://github.com/la10736/rstest
+rstest = "0.21"
